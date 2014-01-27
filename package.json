@@ -1,0 +1,25 @@
+{
+  "name": "dk-car-scraper",
+  "version": "0.1.0",
+  "description": "Scrape car information from the Danish Motor Register based on license plate",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joshuakarjala/js-dk-car-scraper.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "scraper",
+    "car",
+    "motor",
+    "denmark",
+    "dk",
+  ],
+  "author": "joshuakarjala",
+  "dependencies": {
+    "request": "~2.0.0",
+    "cheerios": "~0.13.0"
+  }
+}
